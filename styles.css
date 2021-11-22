@@ -1,0 +1,94 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #807f7d;
+}
+
+header h1 {
+    margin: 0px 0px;
+    padding: 4rem;
+    text-align: center;
+    background-color: rgb(58, 48, 48, 0.4);
+}
+
+article img {
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    border: 2.5px black solid;
+}
+
+.imagen {
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    border: 2.5px black solid;;
+}
+
+article {
+    text-align: center;
+}
+
+article h1 {
+    font-size: 30px;
+}
+
+.frase {
+    font-size: 25px;
+}
+
+div h4 {
+    margin-top: 5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.info {
+    margin-bottom: 10rem;
+}
+
+.info p {
+    line-height: 2;
+    margin-left: 2.5rem;
+}
+
+.importante {
+    font-weight: bold;
+}
+
+.importante {
+    transition: color 0.3s ease;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.importante:hover {
+    color: cornflowerblue;
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
